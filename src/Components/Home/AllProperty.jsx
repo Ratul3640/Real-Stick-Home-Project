@@ -1,5 +1,7 @@
+import { useLoaderData, useParams } from "react-router-dom";
 
-import { useLoaderData, useParams } from 'react-router-dom';
+
+
 
 const EstateHouse = () => {
 
@@ -11,7 +13,7 @@ const EstateHouse = () => {
     const property = newDiv.find(property => property.id === idInt)
     const { image, estate_title, segment_name, description, price, status, area, location, facilities } = property
 
-const EstateHouse = () => {
+const Allproperty = () => {
     return (
         <div className="grid md:grid-cols-2 grid-cols-1 mt-20 gap-24">
             <div>
@@ -70,4 +72,4 @@ const EstateHouse = () => {
     );
 };
 
-    export default EstateHouse;
+export default Allproperty;
