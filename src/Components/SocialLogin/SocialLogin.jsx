@@ -1,11 +1,8 @@
-import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { useContext } from "react";
 import { AuthContext } from "../../FirebaseProvider/FirebaseProvider";
 import { useLocation, useNavigate } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa6";
-
-
 const SocialLogin = () => {
 
 
@@ -14,7 +11,7 @@ const SocialLogin = () => {
     const form = location?.state || '/';
 
 
-    const { googleLogin, githubLogin, facebookLogin } = useContext(AuthContext);
+    const { googleLogin, githubLogin,facebookLogin } = useContext(AuthContext);
 
 
     const handleSocialLogin = socialProvider => {
@@ -34,12 +31,12 @@ const SocialLogin = () => {
                     <img className="w-[34px]" src="https://i.ibb.co/2319kKS/google.png" alt="" />
 
                 </div>
-                <div onClick={() => handleSocialLogin(githubLogin)}>
-                    <FaGithub className="text-3xl" />
-                </div>
-                <div onClick={() => handleSocialLogin(facebookLogin)}>
-                    <FaFacebook className="text-3xl" />
-                </div>
+               <div  onClick={() => handleSocialLogin(githubLogin)}>
+               <FaGithub className="text-3xl" />
+               </div>
+               <div  onClick={() => handleSocialLogin(facebookLogin)}>
+               <FaFacebook className="text-3xl" />
+               </div>
 
             </div>
         </div>

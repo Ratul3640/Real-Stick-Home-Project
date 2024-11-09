@@ -1,13 +1,13 @@
-import React from 'react';
+
 
 const Team = () => {
     return (
-        <div className="text-center mx-auto mt-20  " data-aos="fade-up-right" >
-            <div className="mb-20" data-aos="fade-up-right">
+        <div className="text-center mx-auto mt-20  "data-aos="fade-up-right" >
+            <div className="mb-20"data-aos="fade-up-right">
                 <h2 className="md:text-3xl text-2xl font-bold">Good Reviews By Customers</h2>
                 <p className="md:w-2/6 w-2/3  text-center mx-auto mt-5 mb-10">Outstanding experience! The staff was knowledgeable and helpful, making my  experience seamless. !</p>
             </div>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:ml-20 " data-aos="fade-up-right">
+            <div  className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:ml-20 "data-aos="fade-up-right">
 
 
                 <div className="card md:w-80 bg-base-100 shadow-xl flex mb-28">
@@ -65,10 +65,20 @@ const Team = () => {
 
 
 
+
+
+
+
             </div>
 
         </div>
+
     );
 };
 
 export default Team;
+
+// https://i.ibb.co/HqCPqMF/Home-one.jpg
+
+
+

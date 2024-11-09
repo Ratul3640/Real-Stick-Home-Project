@@ -1,8 +1,10 @@
-import React from 'react';
 import FirebaseProvider from "../../FirebaseProvider/FirebaseProvider";
 import Footer from "../Home/Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import { Outlet } from "react-router-dom";
+
+
+
 
 const Root = () => {
     return (
@@ -12,7 +14,7 @@ const Root = () => {
 
 
             <FirebaseProvider text={'hello'} text2={'world'}>
-
+               
             </FirebaseProvider>
             <Outlet></Outlet>
             <Footer></Footer>
