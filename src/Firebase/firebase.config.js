@@ -3,12 +3,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCJ0ykO-Cx8PWwZM5fwoIvx_IGCeJ5jCxI",
-  authDomain: "real-estate-c552b.firebaseapp.com",
-  projectId: "real-estate-c552b",
-  storageBucket: "real-estate-c552b.appspot.com",
-  messagingSenderId: "722581044578",
-  appId: "1:722581044578:web:cf39eb5d7d186afe6f403b"
+  apiKey: "AIzaSyAUw4-HDqAvfpM64G0o4vkI5wWeF4uiRTc",
+  authDomain: "real-stick-home-deails.firebaseapp.com",
+  projectId: "real-stick-home-deails",
+  storageBucket: "real-stick-home-deails.firebasestorage.app",
+  messagingSenderId: "203809381072",
+  appId: "1:203809381072:web:d0da12d8ba481486be9cd5"
 };
 
 // Initialize Firebase
